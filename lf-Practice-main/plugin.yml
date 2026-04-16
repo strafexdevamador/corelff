@@ -110,3 +110,7 @@ permissions:
   rank.manager:
     description: Manager rank permission
     default: op
+  # Adicione na seção de permissions:
+  valea.command.duel:
+    description: Allows use of /duel
+    default: true
