@@ -5,6 +5,7 @@ namespace Nathan45\Valea;
 use Nathan45\Valea\Commands\AutoSprintCommand;
 use Nathan45\Valea\Commands\InfoCommand;
 use Nathan45\Valea\Commands\InventoryCommand;
+use Nathan45\Valea\Commands\DuelCommand;
 use Nathan45\Valea\Commands\OnlineCommand;
 use Nathan45\Valea\Commands\PingCommand;
 use Nathan45\Valea\Commands\ProfileCommand;
@@ -131,6 +132,7 @@ TAG;
             new Buildperms($this),
             new VanishCommand(),
             new FlyCommand($this),
+            new DuelCommand($this),                                             
             new MeCommand($this),
             new RankCommand(),
             new RankEditor(),
